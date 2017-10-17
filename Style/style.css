@@ -1,0 +1,58 @@
+body {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 1000px;
+  margin: 10px auto;
+  font-family: arial;
+  background-color: #e5e5e5;
+}
+
+#menu, .social-links {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+#menu li, .social-links li {
+  display: inline;
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+main {
+  width: 90%;
+  margin-left: 5%;
+  border-top: solid black 1px;
+}
+main h2 {
+  text-transform: uppercase;
+}
+.two-third {
+  width: 70%;
+  float: left;
+  margin-top: 10px;
+}
+.one-third {
+  width: 30%;
+
+  float: left;
+}
+.clear {
+clear: both;
+}
+.Avatar {
+  padding: 5px;
+  border: 1px solid black;
+  float: right;
+  margin-top: 20px;
+}
+main p {
+  font-size: 20px;
+  font-family: serif;
+  text-align: justify;
+  border-bottom: solid black 1px;
+}
